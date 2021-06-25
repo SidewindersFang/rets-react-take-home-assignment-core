@@ -1,13 +1,22 @@
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import { Listings } from './screens/Listings';
 import { StickyHeader } from 'components/StickyHeader';
-import heartFill from './assets/heart-fill.svg';
-import heartStroke from './assets/heart-stroke.svg';
+
 import styles from './App.module.css';
 
 function App() {
   return (
-    <div className={styles.app}>
-      <StickyHeader />
-    </div>
+    <Router>
+      <div className={styles.app}>
+        <StickyHeader />
+        <Switch>
+          <Route path={['/listings', '/', '*']}>
+            <Listings />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
