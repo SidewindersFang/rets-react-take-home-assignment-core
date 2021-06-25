@@ -1,0 +1,47 @@
+.address {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 32px;
+}
+
+.card {
+  width: 315px;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+}
+
+.listingDate {
+  color: #979797;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 32px;
+}
+
+.photo {
+  width: 315px;
+  height: 200px;
+}
+
+.property {
+  color: #2d2d2d;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.price {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 24px;
+}

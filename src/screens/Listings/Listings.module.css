@@ -1,6 +1,7 @@
 .listings {
+  margin-top: 40px;
   display: grid;
   align-items: center;
-  grid-gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
 }
