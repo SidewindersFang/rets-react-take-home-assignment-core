@@ -18,7 +18,9 @@ const PropertyCard = ({ propertyInfo }) => {
         {`${bedrooms} BR | ${totalBaths} Bath | ${area} Sq Ft`}
       </div>
       <div className={styles.price}>{`$${listPrice.toLocaleString()}`}</div>
-      <div className={styles.address}>{address.full}</div>
+      <div
+        className={styles.address}
+      >{`${address.streetName}, ${address.city}, ${address.state}`}</div>
       <div className={styles.listingDate}>{formattedListDate}</div>
     </div>
   );

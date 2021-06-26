@@ -15,6 +15,12 @@
   height: 350px;
 }
 
+.heart {
+  position: relative;
+  top: 40px;
+  left: 130px;
+}
+
 .listingDate {
   color: #979797;
   font-family: Open Sans;
@@ -27,6 +33,7 @@
 .photo {
   width: 315px;
   height: 200px;
+  object-fit: cover;
 }
 
 .property {

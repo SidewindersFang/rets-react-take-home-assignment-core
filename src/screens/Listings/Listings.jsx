@@ -12,8 +12,8 @@ const Listings = () => {
 
   return (
     <div className={styles.listings}>
-      {data.map((property) => (
-        <PropertyCard propertyInfo={property} />
+      {data.map((property, index) => (
+        <PropertyCard propertyInfo={property} key={index} />
       ))}
     </div>
   );
